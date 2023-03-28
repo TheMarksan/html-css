@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 7px solid wheat;
+}
+h1{
+    background-color: wheat;
+    text-align: center;
+    color: black;
+}
+p{
+    color: white;
+}

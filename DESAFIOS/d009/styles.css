@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+iframe{
+    border: 2px solid white;
+}
