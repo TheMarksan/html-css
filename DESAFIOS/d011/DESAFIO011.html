@@ -5,9 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DESAFIO011</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            position: relative;
+            height: 96vh;
+            background: black url('img/espaco.jpg') center center no-repeat fixed;
+            background-size: cover;
+        }
+        body > .astronauta{
+            background-image: url('img/astronauta.png');
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 40%;
+            width: 30%;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+        
+    </style>
 </head>
 <body>
-    <div><img src="img/astronauta.png" alt="astronauta"></div>
+    <div class="astronauta">
+    </div>
 </body>
 </html>
