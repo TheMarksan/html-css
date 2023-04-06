@@ -41,7 +41,7 @@ header > p{
 }
 section{
     font-family: 'Sriracha', cursive;
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: normal;
     padding: 10vh 0vh 10vh 5vh;
     line-height: 2em;
@@ -52,6 +52,7 @@ section{
     color: black;
 }
 .transparente{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.322);
     background-color: black;
     color: white;
     text-align: left;
