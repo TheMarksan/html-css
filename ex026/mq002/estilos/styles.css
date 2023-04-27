@@ -18,7 +18,14 @@ h1 {
     color: white;
     text-shadow: 2px 2px 0px #1526a7;
     padding: 10px;
+    font-size: 2vw;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    opacity: 75%;
+    opacity: 50%;
+}
+
+@media (max-width: 700px) {
+    h1{
+        font-size: 5vw;
+    }
 }
